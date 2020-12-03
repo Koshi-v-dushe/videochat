@@ -4,4 +4,4 @@
 
 kubectl --context minikube create -f common
 sudo skaffold build --tag=latest --kube-context minikube
-sudo skaffold run --tag="latest" --kube-context minikube
+skaffold run --tag="latest" --kube-context minikube
